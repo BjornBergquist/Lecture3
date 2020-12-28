@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+}
+
+.container{
+    margin: auto;
+    border: solid #3bd31d 2px;
+    background-color: #222;
+    width: 60%;
+    height: 800px;
+
+    /* Grid */
+    
+}
+
+.box {
+    border: solid #3bd31d 2px;
+    background-color: #333;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.box h2{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3bd31d;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
